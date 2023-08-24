@@ -1,15 +1,64 @@
 .headerh1 {
+    font-family: 'rubik', sans-serif;
     text-align: center;
     height: 60px;
-    background-color: #099d8d;
+    padding: 15px 80px;
+    opacity: 0.95;
+    background-color: var(--blue-green);
+    color: var(--white);
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 421px;
+    background-image: url(../images/95.webp);
+    background-size: contain;
+    opacity: 0.8;
+    
 }
 .header-nav {
+
+    text-transform: uppercase;
     height: 45px;
-    background-color: #14d9c4;
+    padding: 8px 17px 7px 16px;
+    background-color: var(--aqua);
+    opacity: 0.9;
+
 }
 .list {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style: none;
 }
+
+.list li {
+    height: 30px;
+    margin: 0 15px 0 0;
+   
+    font-family: rubik;
+    font-size: 150%;
+    letter-spacing: normal;
+
+
+}
+
+.links {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+    .text-box {
+
+        background-color: var(--white);
+        height: 80px;
+        width: 290px;
+        font-family: 'open sans';
+        font-size: 180%;
+        font-weight: bold;
+        padding: 14px 15px 16px;
+        
+    }
