@@ -1,0 +1,15 @@
+.headerh1 {
+    text-align: center;
+    height: 60px;
+    background-color: #099d8d;
+}
+.header-nav {
+    height: 45px;
+    background-color: #14d9c4;
+}
+.list {
+    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
