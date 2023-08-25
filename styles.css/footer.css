@@ -1,0 +1,39 @@
+:root {
+    font-size: 62.5%;
+    --black: #000;
+    --light-grey-blue: rgba(184, 184, 185, 0.1);
+    --aqua: #14d9c4;
+    --black-8: rgba(0, 0, 0, 0.08);
+    --gunmetal: #54585a;
+    --white: #fff;
+    --blue-green: #099d8d;
+    --cool-grey: #b8b8b9;
+  }
+ .footer{
+    font-size: 1.4rem;
+    font-family: ;
+  }
+.container {
+    text-align: center;
+    background-color:darkgreen;
+}
+.container2{
+    background-color:bisque;
+    position: relative;
+    
+    margin: 20px 29px 30px;
+    text-align: center;
+    
+}
+footer-copy{
+    color: var(--cool-grey);   
+}
+.lista{
+    list-style: none;
+    text-transform: uppercase;
+}
+.logo{
+    width: 115.9px;
+    height: 45px;
+    margin: 30px 28.1px 0 28px;
+}
