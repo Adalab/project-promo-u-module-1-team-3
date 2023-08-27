@@ -215,30 +215,36 @@
 
 
 .footer{
-    font-size: 1.4rem;
-    font-family: ;
-  }
+  margin: 15px;
+  font-size: 1.4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .container {
-    text-align: center;
-    background-color:darkgreen;
+  text-align: center;
+  border: solid 1px var(--cool-grey);
 }
-.container2{
-    background-color:bisque;
-    position: relative;
-    
-    margin: 20px 29px 30px;
-    text-align: center;
-    
+/*.container2 .list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 150px 0px;
+}*/
+.ul{
+  list-style-type: none;
 }
-footer-copy{
-    color: var(--cool-grey);   
-}
-.lista{
-    list-style: none;
-    text-transform: uppercase;
+.list{
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--gunmetal)
 }
 .logo{
-    width: 115.9px;
-    height: 45px;
-    margin: 30px 28.1px 0 28px;
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+footer-copy{
+  color: var(--cool-grey); 
 }
