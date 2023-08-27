@@ -108,12 +108,15 @@
         font-size: 1.6rem;
         color: var(--gunmetal);
       }
-      
-      .pic img {
+      .pic {
         width: 18rem;
         height: 18rem;
         border-radius: 0.4rem;
         border: 0.5rem solid var(--black-8);
+      }
+      .pic>img {
+        width: 100%;
+        height: 100%;
       }
       
       .rrss {
@@ -130,6 +133,11 @@
 @media screen and (min-width: 768px) {
   .quienes h1 {
     margin: 4.5rem 0 1rem;
+  }
+  .pic {
+    min-width: 20rem;
+    width: 20rem;
+    height: 20rem;
   }
   .article{
     flex-direction: row;
