@@ -25,6 +25,12 @@
       gap: 2rem;
       &:nth-child(2n + 1) {
         flex-direction: row-reverse;
+        .who_article-info {
+          align-items: flex-end;
+          p {
+            text-align: right;
+          }
+        }
       }
     }
     &-pic {
@@ -74,7 +80,7 @@
       & footer {
         .rrss {
           display: flex;
-          gap: 1.5rem;
+          gap: 1rem;
           padding: 0;
           margin: 0;
           & li {
@@ -88,13 +94,6 @@
     }
   }
 }
-
-// .article:nth-child(2n + 1) .articleInfo {
-//   align-items: flex-end;
-// }
-// .article:nth-child(2n + 1) .articleInfo p {
-//   text-align: right;
-// }
 
 @media screen and (min-width: 1200px) {
   .pic {
