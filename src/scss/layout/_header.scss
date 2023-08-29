@@ -3,48 +3,80 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 421px;
+  height: 40vh;
+  width: 100%;
   background-image: url(../images/volando.jpg); 
   background-size: cover;
   opacity: 0.8;
-}
+  
+  @media (min-width: 768px){
+    
+    flex-direction: row;
 
+  }
+}
+.header_nav--tablet {
+  display: none;
+  @media (min-width: 768px){
+    display: block;
+    text-transform: uppercase;
+  }
+}
 
 .header_h1 {
   font-family: "rubik", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
+  height: 6rem;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.8;
   background-color: $blue-green;
   color: $white;
+  
+
+  @media (min-width: 768px){
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 0 15px;
 }
 
+}
 
 
 .header_nav {
-  text-transform: uppercase;
-  height: 45px;
-  padding: 8px 17px 7px 16px;
-  background-color: $aqua;
-  opacity: 0.9;
-  
+text-transform: uppercase;
+height: 4.5rem;
+background-color: $aqua;
+opacity: 0.6;
+display: flex;
+justify-content: center;
+align-items: center;
+
+@media (min-width: 768px){
+  display: none;
+}
 }
 
-.header_nav-list {
+.list {
+  padding: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
+  text-align: center;
+  gap: 15px;
+
+
 }
 
 .list li {
-  height: 30px;
-  margin: 0 15px 0 0;
+  
 
   font-family: "rubik";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: normal;
 }
 
@@ -57,9 +89,17 @@
   margin: $margin-mobile;
   background-color: $white;
   height: 80px;
-  width: 290px;
+  max-width: 100%;
   font-family: "open sans";
   font-size: 1.8rem;
   font-weight: bold;
   padding: 14px 15px 16px;
+  transform: translateY(-30%);
+  
+  @media (min-width: 768px){
+  transform: translateY(-60%);
+  background-color: #ffffff60;
+  max-width: 441px;
+
+  }
 }
