@@ -1,5 +1,59 @@
-.page__header {
+.headerh1 {
+  font-family: "rubik", sans-serif;
+  text-align: center;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  background-color: $blue-green;
+  color: $white;
+}
+
+.header-main {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 421px;
+  background-image: url(../images/95.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.header-nav {
+  text-transform: uppercase;
+  height: 45px;
+  padding: 8px 17px 7px 16px;
+  background-color: $aqua;
+  opacity: 0.9;
+  
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.list li {
+  height: 30px;
+  margin: 0 15px 0 0;
+
+  font-family: rubik;
+  font-size: 150%;
+  letter-spacing: normal;
+}
+
+.links {
+  text-decoration: none;
+  color: $white;
+}
+
+.text-box {
+  background-color: $white;
+  height: 80px;
+  width: 290px;
+  font-family: "open sans";
+  font-size: 180%;
+  font-weight: bold;
+  padding: 14px 15px 16px;
 }
