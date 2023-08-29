@@ -6,7 +6,7 @@
 }
 .container {
   text-align: center;
-  border: solid 1px var(--cool-grey);
+  border: solid 1px $cool-grey;
 }
 /*.boxfooter{
   width: 30px;
@@ -22,18 +22,18 @@
   list-style-type: none;
   padding: 0%;
 }
-.listfooter {
+.list_footer {
   display: inline;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--gunmetal);
+  color: $gunmetal;
 }
-.logofooter {
+.logo_footer {
   width: 115.9px;
   height: 45px;
   margin: 30px 28.1px 0 28px;
 }
-.footer-copy {
-  color: var(--cool-grey);
+.footer_copy {
+  color: $cool-grey;
 }
