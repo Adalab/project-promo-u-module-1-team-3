@@ -1,4 +1,16 @@
-.headerh1 {
+
+.header_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 421px;
+  background-image: url(../images/volando.jpg); 
+  background-size: cover;
+  opacity: 0.8;
+}
+
+
+.header_h1 {
   font-family: "rubik", sans-serif;
   text-align: center;
   height: 60px;
@@ -8,18 +20,9 @@
   color: $white;
 }
 
-.header-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 421px;
-  background-image: url(../images/95.webp);
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-}
 
-.header-nav {
+
+.header_nav {
   text-transform: uppercase;
   height: 45px;
   padding: 8px 17px 7px 16px;
