@@ -223,7 +223,10 @@
   text-align: center;
   border: solid 1px var(--cool-grey);
 }
-/*.container2 .list{
+/*.boxfooter{
+  width: 30px;
+}*/
+/*.box .list{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -232,8 +235,10 @@
 }*/
 .ul{
   list-style-type: none;
+  padding: 0%;
+  
 }
-.list{
+.listfooter{
   display: inline;
   text-align: center;
   text-decoration: none;
