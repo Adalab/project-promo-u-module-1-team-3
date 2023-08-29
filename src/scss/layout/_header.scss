@@ -12,7 +12,9 @@
 
 .header_h1 {
   font-family: "rubik", sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   padding: 15px 80px;
   opacity: 0.95;
@@ -31,7 +33,7 @@
   
 }
 
-.list {
+.header_nav-list {
   display: flex;
   justify-content: flex-start;
   list-style: none;
@@ -41,8 +43,8 @@
   height: 30px;
   margin: 0 15px 0 0;
 
-  font-family: rubik;
-  font-size: 150%;
+  font-family: "rubik";
+  font-size: 1.5rem;
   letter-spacing: normal;
 }
 
@@ -52,11 +54,12 @@
 }
 
 .text-box {
+  margin: $margin-mobile;
   background-color: $white;
   height: 80px;
   width: 290px;
   font-family: "open sans";
-  font-size: 180%;
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 14px 15px 16px;
 }
