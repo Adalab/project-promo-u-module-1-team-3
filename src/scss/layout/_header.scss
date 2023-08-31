@@ -96,16 +96,18 @@
   background-color: $white;
   height: 80px;
   max-width: 100%;
-  font-family: "open sans";
+  font-family: $font-family;
   font-size: 1.8rem;
   font-weight: bold;
   padding: 14px 15px 16px;
+  margin: 15px;
   transform: translateY(-30%);
   
   @media (min-width: 768px){
-  transform: translateY(-60%);
+  transform: translateY(-70%);
   background-color: #ffffff60;
   max-width: 441px;
+  margin-left: 30px;
 
   }
 
