@@ -4,14 +4,14 @@
   height: 30px;
   background-color: $gunmetal;
   transform: rotate(45deg);
-  z-index: 1;
+
   position: relative;
 
 }
 
 .stren_box {
   background-color: #b8b8b925;
-  z-index: -1;
+  position: absolute;
   padding: 20px;
 
   @media (min-width: 768px) {
