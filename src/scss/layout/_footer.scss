@@ -28,7 +28,7 @@ color: $cool-grey;
   text-decoration: none;
   text-transform: uppercase;
   color: $gunmetal;
-  @media (min-width 768px){
+  @media (min-width: 768px){
     grid-area: ul;    
   }
 }
