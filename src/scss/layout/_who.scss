@@ -1,7 +1,7 @@
 .who,
 .who_article,
 .who_article-info {
-@include columnize()
+  @include columnize();
 }
 .who {
   & h1 {
@@ -17,11 +17,11 @@
     }
   }
   &_article {
-    margin: 3rem 0 1.5rem;
+    margin: 1.5rem;
     @media screen and (min-width: 768px) {
       flex-direction: row;
       align-items: flex-start;
-      margin: 3rem 0 3rem;
+      margin: 3rem;
       gap: 2rem;
       &:nth-child(2n + 1) {
         flex-direction: row-reverse;
@@ -29,12 +29,20 @@
           align-items: flex-end;
           p {
             text-align: right;
+            @media screen and (min-width: 1200px) {
+              padding-left: 16rem;
+            }
           }
+        }
+      }
+      &:nth-child(2n) .who_article-info p {
+        @media screen and (min-width: 1200px) {
+          padding-right: 16rem;
         }
       }
     }
     @media screen and (min-width: 1200px) {
-      margin: 3rem 13.8rem;
+      margin: 3rem 14rem;
       gap: 3.5rem;
     }
     &-pic {
@@ -88,13 +96,13 @@
         }
       }
       & footer {
-        margin: 0;
         .rrss {
-          display: flex;
-          gap: 1rem;
-          padding: 0;
           margin: 0;
-          & li {width: 1.5rem;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          list-style-position: inside;
+          & li {
             & a {
               padding: 1rem;
             }
