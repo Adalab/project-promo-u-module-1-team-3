@@ -1,5 +1,6 @@
 .header {
   
+  
   &__main {
   display: flex;
   flex-direction: column;
@@ -9,13 +10,14 @@
   background-image: url(../images/volando.jpg); 
   background-size: cover;
   opacity: 0.8;
+   
   
       @media (min-width: 768px){
         flex-direction: row;
       }
 
     &--h1 {
-
+    
     font-family: "rubik", sans-serif;
     display: flex;
     justify-content: center;
@@ -26,6 +28,7 @@
     opacity: 0.8;
     background-color: $blue-green;
     color: $white;
+    
   
   
       @media (min-width: 768px) {
