@@ -1,0 +1,30 @@
+.hero {
+
+    &__textbox{
+
+    background-color: $white;
+    height: 80px;
+    max-width: 100%;
+    font-family: $font-family;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 14px 15px 16px;
+    margin: 15px;
+    transform: translateY(-40%);
+    
+    @media (min-width: 768px){
+    transform: translateY(-70%);
+    background-color: #ffffff60;
+    max-width: 441px;
+    margin-left: 30px;
+    }
+    }
+
+    &__image {
+        width: 100vw;
+        height: 40vh;
+
+        background-size: cover;
+    }
+}  
+
