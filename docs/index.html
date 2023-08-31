@@ -1,68 +1,361 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/d65782632e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+  <body class="body">
+    
+    <header class="header">
+      <div class="header__main">
+        <div class="header__main--h1">
+          <h1>VOLANDO VAMOS</h1>
+          <nav class="header__nav--tablet">
+            <ul class="header__nav--list">
+              <li><a class="links" href="./index.html#team">Equipo</a></li>
+              <li><a class="links" href="./index.html#who">Quiénes somos</a></li>
+              <li><a class="links" href="./index.html#contact">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav--list">
+            <li><a class="links" href="./index.html#team">Equipo</a></li>
+            <li><a class="links" href="./index.html#who">Quiénes somos</a></li>
+            <li><a class="links" href="./index.html#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="text-box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit..
+     </div> 
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+    </header>
 
-          </li>
-        </ul>
-      </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main class="main">
+      
+      <section class="team">
+        <div class="team_box">
+          <h2 class="team_title">Equipo</h2>
+          <p class="team_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero commodi
+            dicta nobis eius ipsa, voluptate ullam repellat iure soluta necessitatibus
+            error dolorem atque corporis nam provident, placeat ad sint.
+          </p>
+          <p class="team_text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aut
+            perferendis voluptas dolores labore aspernatur illum eveniet, laudantium
+            odit explicabo cumque dolorum similique excepturi debitis aperiam aliquid
+            veniam inventore non.
+          </p>
+        </div>
+        <div class="square"></div>
+        <aside class="stren_box">
+          <div class="str-box">
+            <h2 class="stren_h2">Fortalezas</h2>
+            <p class="stren_text">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fuga
+              animi repellat voluptates quis doloremque aliquid! Cupiditate dolores
+              praesentium mollitia quam natus dolorem exercitationem earum facilis quis.
+              Nisi, quasi voluptate."
+            </p>
+          </div>
+          <div class="str-box">
+            <h2 class="stren_h2">Debilidades</h2>
+            <p class="stren_text">
+              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi fuga
+              animi repellat voluptates quis doloremque aliquid! Cupiditate dolores
+              praesentium mollitia quam natus dolorem exercitationem earum facilis quis.
+              Nisi, quasi voluptate."
+            </p>
+          </div>
+        </aside>
 
-        </small>
+      </section>
+
+      <section class="who" id="who">
+          <h1>Quiénes somos</h1>
+          <article class="who_article">
+            <div class="who_article-pic">
+              <img src="./assets/images/arantza.jpg" alt="Arantza" />
+            </div>
+            <div class="who_article-info">
+              <h2>Arantza Gómez</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quod
+                nesciunt expedita rerum optio error quis dignissimos, accusantium
+                earum repudiandae voluptatibus aliquid fuga sit voluptatum facere.
+                Hic ea possimus in!
+              </p>
+              <footer>
+                <ul class="rrss">
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-x-twitter fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-linkedin-in fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-github-alt fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-envelope fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </article>
+          <article class="who_article">
+            <div class="who_article-pic">
+              <img src="./assets/images/Tania Moreno.jpg" alt="Tania" />
+            </div>
+            <div class="who_article-info">
+              <h2>Tania Moreno</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quod
+                nesciunt expedita rerum optio error quis dignissimos, accusantium
+                earum repudiandae voluptatibus aliquid fuga sit voluptatum facere.
+                Hic ea possimus in!
+              </p>
+              <footer class="who_article-foot">
+                <ul class="rrss">
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-x-twitter fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-linkedin-in fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-github-alt fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-envelope fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </article>
+          <article class="who_article">
+            <div class="who_article-pic">
+              <img src="./assets/images/Carmen Bravo.jpg" alt="Carmen" />
+            </div>
+            <div class="who_article-info">
+              <h2>Carmen Bravo</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quod
+                nesciunt expedita rerum optio error quis dignissimos, accusantium
+                earum repudiandae voluptatibus aliquid fuga sit voluptatum facere.
+                Hic ea possimus in!
+              </p>
+              <footer class="who_article-foot">
+                <ul class="rrss">
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-x-twitter fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-linkedin-in fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-github-alt fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-envelope fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </article>
+          <article class="who_article">
+            <div class="who_article-pic">
+              <img src="./assets/images/Raquel.jpg" alt="Raquel" />
+            </div>
+            <div class="who_article-info">
+              <h2>Raquel Ortiz Muñoz</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quod
+                nesciunt expedita rerum optio error quis dignissimos, accusantium
+                earum repudiandae voluptatibus aliquid fuga sit voluptatum facere.
+                Hic ea possimus in!
+              </p>
+              <footer class="who_article-foot">
+                <ul class="rrss">
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-x-twitter fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-linkedin-in fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-github-alt fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-envelope fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </article>
+          <article class="who_article">
+            <div class="who_article-pic">
+              <img src="./assets/images/laura-abasto.jpg" alt="Laura" />
+            </div>
+            <div class="who_article-info">
+              <h2>Laura Luraschi</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quod
+                nesciunt expedita rerum optio error quis dignissimos, accusantium
+                earum repudiandae voluptatibus aliquid fuga sit voluptatum facere.
+                Hic ea possimus in!
+              </p>
+              <footer class="who_article-foot">
+                <ul class="rrss">
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-x-twitter fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-linkedin-in fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-brands fa-github-alt fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-envelope fa-2xl"
+                        style="color: #099d8d;"
+                      ></i>
+                    </a>
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </article>
+        </section>
+     
+    </main>
+    
+    <footer class="footer">
+          <p class="footer_copy">Volando vamos &copy;2023</p>
+          <nav class="box_footer">
+            <ul class="ul">
+              <li><a class="list_footer" href="./index.html#team">Equipo</a></li>
+              <li><a class="list_footer" href="./index.html#who">Quiénes somos</a></li>
+              <li><a class="list_footer" href="./index.html#contact">Contacto</a></li>
+            </ul>
+          </nav>
+          <img class="logo_footer" src="./assets/images/logo.png" alt="logo adalab" />
       </footer>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+
+      
+      
+
   </body>
 </html>
