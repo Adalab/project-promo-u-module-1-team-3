@@ -1,20 +1,21 @@
 .footer{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-    font-size: 1.4rem;
+  font-size: 1.4rem;
   font-family: $font-family;
   border: solid 1px $cool-grey;
   justify-items: center;
   @media (min-width: 768px){
-    grid-template-areas: 'copy copy' 'ul ul' 'logo logo';
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas: 'copyy ul' 'logo .';
   }
 }
 .footer_copy{
 color: $cool-grey;
 @media (min-width: 768px){
-  grid-area: copy;
-  grid-row: 1 / 3;
+  grid-area: copyy;
+  
+  
 }
 }
 .footer_ul{
@@ -29,7 +30,9 @@ color: $cool-grey;
   text-transform: uppercase;
   color: $gunmetal;
   @media (min-width: 768px){
-    grid-area: ul;    
+    grid-area: ul;
+    
+
   }
 }
 .footer_logo{
