@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__main">
+        <h1 class="h1">nombre del grupo</h1>
+        <nav class="header__nav">
+          <ul class="header__nav--list">
+            <li><a class="links" href="./index.html#team">Equipo</a></li>
+            <li><a class="links" href="./index.html#who">Quiénes somos</a></li>
+            <li><a class="links" href="./index.html#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section>
+        <h2 class="h2">contacto</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.
+          Mollitia architecto qui minus voluptate dolorum aperiam voluptates
+          dignissimos a. Perferendis sunt, vero velit earum officiis harum
+          voluptatem nam fugit.
+        </p>
+        <span>Todos los campos marcados con * son obligatorios</span>
+      </section>
+      <section>
+        <form action="#">
+          <label for="name">Nombre completo *</label>
+          <input class="input" type="text" name="name" required />
+          <label for="email">Email *</label>
+          <input
+            class="input"
+            type="email"
+            id="email"
+            placeholder="tunombre@mail.com"
+            required
+          />
+          <label for="tlf">Teléfono</label>
+          <input class="input" type="number" name="tlf" />
+          <label for="comments">Mensaje *</label>
+          <textarea id="message" name="message" rows="8" cols="80"></textarea>
+          <input class="input" type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <hr />
+      <div>
+        <p>Volando vamos &copy;2023</p>
+        <img src="logo" src="./logo.png" alt="logo Adalab" />
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li>Equipo</li>
+            <li>Quienes somos</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

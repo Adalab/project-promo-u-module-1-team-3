@@ -10,7 +10,7 @@
 }
 
 .stren_box {
-  background-color: #b8b8b925;
+  background-color: $back-grey;
 
   @media (min-width: 768px) {
     display: flex;
@@ -18,24 +18,24 @@
 }
 
 .str-box {
-  padding: 20px;
+  padding: 2.5rem 3rem 1rem 3rem;
 
   @media (min-width: 768px) {
-    padding: 10px 30px;
+    margin: 1.5rem;
   }
 
   @media (min-width: 1200px) {
-    padding: 20px 50px;
+    margin: 2rem 8rem;
   }
 }
 
 .stren_h2 {
-  font-family: "rubik";
+  font-family: "rubik", sans-serif;
   font-size: 2.2rem;
   color: $blue-green;
   letter-spacing: 0.5px;
   text-align: center;
-  margin: 15px 0;
+  margin: 1.5rem;
 }
 
 .stren_text {
@@ -45,4 +45,8 @@
   line-height: 1.5;
   width: 100%;
   text-align: center;
+}
+
+.final_text {
+  margin-bottom: 4rem;
 }
