@@ -1,30 +1,42 @@
 .hero {
-
-    &__textbox{
+width: 100vw;
+height: 40vh;
+background-image: url("/assets/images/volando.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 10%;
+z-index: 0;
+position:relative;
+top:0;
+margin-bottom: 0vh;
+    
+&__textbox{
 
     background-color: $white;
-    height: 80px;
-    max-width: 100%;
+    max-width: 100vw;
     font-family: $font-family;
     font-size: 1.8rem;
     font-weight: bold;
     padding: 14px 15px 16px;
     margin: 15px;
-    transform: translateY(-40%);
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    
+  
     
     @media (min-width: 768px){
-    transform: translateY(-70%);
+        transform: translateY(20%);
     background-color: #ffffff60;
     max-width: 441px;
     margin-left: 30px;
     }
     }
 
-    &__image {
-        width: 100vw;
-        height: 40vh;
-
-        background-size: cover;
-    }
+    //&__image {
+     //   width: 100vw;
+       // height: 40vh;
+        
+    //}
 }  
 
